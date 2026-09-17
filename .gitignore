@@ -1,0 +1,15 @@
+# compiled binary
+logsift
+logsift.exe
+
+# Go build cache
+*.test
+*.out
+
+# macOS
+.DS_Store
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
