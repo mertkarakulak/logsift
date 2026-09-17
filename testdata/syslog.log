@@ -1,0 +1,7 @@
+Jan 15 10:00:01 web01 systemd[1]: Starting nginx.service...
+Jan 15 10:00:02 web01 systemd[1]: Started nginx.service.
+Jan 15 10:00:45 web01 nginx[1234]: connect() failed (111: Connection refused) upstream
+Jan 15 10:01:00 web01 kernel: Out of memory: Kill process 9999 score 850
+<190>Jan 15 10:01:30 web01 sshd[2222]: Failed password for invalid user admin from 203.0.113.10 port 54321 ssh2
+<187>Jan 15 10:02:00 web01 postfix/smtp[3333]: connect to mail.example.com[1.2.3.4]:25: Connection timed out
+Jan 15 10:02:30 web01 cron[4444]: (root) CMD (/usr/lib/cron/run-crons)

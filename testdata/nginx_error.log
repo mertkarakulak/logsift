@@ -1,0 +1,6 @@
+2024/01/15 10:00:45 [error] 1234#5678: *101 connect() failed (111: Connection refused) while connecting to upstream, client: 203.0.113.10, server: example.com, request: "GET /api/payment HTTP/1.1", upstream: "http://127.0.0.1:8080/api/payment"
+2024/01/15 10:01:05 [error] 1234#5678: *102 connect() failed (111: Connection refused) while connecting to upstream, client: 203.0.113.10, server: example.com, request: "GET /api/payment HTTP/1.1", upstream: "http://127.0.0.1:8080/api/payment"
+2024/01/15 10:01:30 [warn] 1234#5678: *103 upstream response time 2.345 exceeds configured timeout, client: 10.0.0.5, server: example.com
+2024/01/15 10:02:00 [info] 1234#5678: signal process started
+2024/01/15 10:02:30 [error] 1234#5678: *104 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.1, server: example.com
+2024/01/15 10:03:00 [crit] 1234#5678: *105 SSL_read() failed (104: Connection reset by peer) while reading upstream, client: 198.51.100.1, server: example.com

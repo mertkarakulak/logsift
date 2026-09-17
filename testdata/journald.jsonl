@@ -1,0 +1,7 @@
+{"__REALTIME_TIMESTAMP":"1705312801000000","__MONOTONIC_TIMESTAMP":"12345","MESSAGE":"Started nginx.service","PRIORITY":"6","_SYSTEMD_UNIT":"nginx.service","_HOSTNAME":"web01"}
+{"__REALTIME_TIMESTAMP":"1705312805000000","__MONOTONIC_TIMESTAMP":"12400","MESSAGE":"connect() failed (111: Connection refused) for upstream","PRIORITY":"3","_SYSTEMD_UNIT":"nginx.service","_HOSTNAME":"web01"}
+{"__REALTIME_TIMESTAMP":"1705312810000000","__MONOTONIC_TIMESTAMP":"12450","MESSAGE":"Worker process 4321 exited with code 1","PRIORITY":"4","_SYSTEMD_UNIT":"nginx.service","_HOSTNAME":"web01"}
+{"__REALTIME_TIMESTAMP":"1705312815000000","__MONOTONIC_TIMESTAMP":"12500","MESSAGE":"Out of memory: Kill process 8765 (php-fpm) score 892","PRIORITY":"2","_SYSTEMD_UNIT":"kernel","_HOSTNAME":"web01"}
+{"__REALTIME_TIMESTAMP":"1705312820000000","__MONOTONIC_TIMESTAMP":"12550","MESSAGE":"Reached target network-online.target","PRIORITY":"6","_SYSTEMD_UNIT":"network.target","_HOSTNAME":"web01"}
+{"__REALTIME_TIMESTAMP":"1705312825000000","__MONOTONIC_TIMESTAMP":"12600","MESSAGE":"connect() failed (111: Connection refused) for upstream","PRIORITY":"3","_SYSTEMD_UNIT":"nginx.service","_HOSTNAME":"web01"}
+{"__REALTIME_TIMESTAMP":"1705312830000000","__MONOTONIC_TIMESTAMP":"12650","MESSAGE":"Session 42 of user deploy opened","PRIORITY":"6","_SYSTEMD_UNIT":"sshd.service","_HOSTNAME":"web01"}
